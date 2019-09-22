@@ -4,6 +4,7 @@ import { GlobalStyle } from './style.js';
 
 import Header from './header/index';
 import Main from './main/index';
+import Footer from './footer/index';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <GlobalStyle />
       <Header />
       <Main />
+      <Footer />
     </div>
   );
 }

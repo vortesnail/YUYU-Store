@@ -2,7 +2,6 @@ import styled from 'styled-components';
 
 export const MainWrapper = styled.main`
   width: 100%;
-  height: 1000px;
   margin-top: 70px;
 `
 
@@ -141,6 +140,53 @@ export const SectionUl = styled.ul`
       color: #8F8F8F;
       font-weight: 300;
       margin-top: 20px;
+    }
+  }
+
+  .section-3 {
+    display: block;
+    padding: 5px;
+    border: 2px #5adea6 solid;
+    border-radius: 10px;
+    background: #9edbd3;
+    margin: 34px 34px 0;
+  }
+`
+
+export const JoinImg = styled.div`
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: url('http://www.yuyu.com/assets/www/img/bg-1.png') repeat-x;
+  .img-container {
+    width: 990px;
+    margin: 0 auto;
+    position: relative;
+    color: #fff;
+    .banner-02 {
+      display: block;
+      margin-top: 46px;
+    }
+    p {
+      position: absolute;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .step1 {
+      top: 0;
+      right: 300px;
+    }
+    .step2 {
+      top: 336px;;
+      left: 4px;
+    }
+    .step3 {
+      bottom: 4px;
+      left: 316px;
+    }
+    .step4 {
+      top: 336px;;
+      right: 90px;
     }
   }
 `

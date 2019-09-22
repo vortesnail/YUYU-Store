@@ -7,6 +7,7 @@ export const HeaderWrapper = styled.div`
   top: 0;
   left: 0;
   background-color: #fff;
+  box-shadow: 0 2px 2px rgba(10,16,20,.24),0 0 2px rgba(10,16,20,.12);
 `
 
 export const HeaderContent = styled.div`

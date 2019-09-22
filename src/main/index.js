@@ -5,6 +5,7 @@ import {
   Section,
   Title,
   SectionUl,
+  JoinImg,
 } from './style';
 
 class Main extends Component {
@@ -67,6 +68,39 @@ class Main extends Component {
             </li>
           </SectionUl>
         </Section>
+
+        <JoinImg>
+          <Title>
+            <h3 style={{ color: "#fff" }}>入驻流程</h3>
+            <p style={{ color: "#fff" }}>仅需4步，快速拥有属于商家的专属店铺</p>
+          </Title>
+          <div className="img-container">
+            <img className="banner-02" src="http://www.yuyu.com/assets/www/img/banner-02.png" alt="" />
+            <p className="step1">注册鱼鱼店<br />上传商户信息</p>
+            <p className="step2">申请微信公众号<br/>和小程序</p>
+            <p className="step3">开通微信支付<br />授权小程序</p>
+            <p className="step4">审核通过<br />成功发布</p>
+          </div>
+        </JoinImg>
+
+        <Section>
+          <Title>
+            <h3>他们都在用</h3>
+            <p>面向不同行业，提供一站式行业解决方案</p>
+          </Title>
+          <SectionUl>
+            <li className="section-3 first-icon"><img src="http://www.yuyu.com/assets/www/img/p-1.jpg" alt="p1"/></li>
+            <li className="section-3 second-icon"><img src="http://www.yuyu.com/assets/www/img/p-2.jpg" alt="p1"/></li>
+            <li className="section-3 third-icon"><img src="http://www.yuyu.com/assets/www/img/p-3.jpg" alt="p1"/></li>
+            <li className="section-3 forth-icon"><img src="http://www.yuyu.com/assets/www/img/p-4.jpg" alt="p1"/></li>
+            <li className="section-3 fifth-icon"><img src="http://www.yuyu.com/assets/www/img/p-5.jpg" alt="p1"/></li>
+            <li className="section-3 sixth-icon"><img src="http://www.yuyu.com/assets/www/img/p-6.jpg" alt="p1"/></li>
+            <li className="section-3 seventh-icon"><img src="http://www.yuyu.com/assets/www/img/p-7.jpg" alt="p1"/></li>
+            <li className="section-3 eighth-icon"><img src="http://www.yuyu.com/assets/www/img/p-8.jpg" alt="p1"/></li>
+          </SectionUl>
+          <p className="saoyisao" style={{color: '#6FD7AF', fontSize: '15px', marginTop: '20px', textAlign: 'center', paddingBottom: '20px'}}>微信扫一扫即可查看小程序</p>
+        </Section>
+
 
       </MainWrapper>
     )
