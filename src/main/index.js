@@ -28,7 +28,7 @@ class Main extends Component {
             <p>一站式从“商品、店铺、订单、营销、会员”管理</p>
           </Title>
           <SectionUl>
-            <li className="section-1 first-icon"></li>
+            <li className="section-1 first-icon">商品管理</li>
             <li className="section-1 second-icon">店铺管理</li>
             <li className="section-1 third-icon">订单管理</li>
             <li className="section-1 forth-icon">营销管理</li>
