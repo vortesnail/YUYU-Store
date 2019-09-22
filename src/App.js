@@ -1,7 +1,7 @@
 import React from 'react';
 import { GlobalStyle } from './style.js';
 import { Provider } from 'react-redux';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 
 import Header from './header/index';
 import Main from './main/index';
@@ -17,16 +17,19 @@ function App() {
     <div className="App">
       <Provider store={store}>
         <GlobalStyle />
-        <BrowserRouter>
+        <Router>
           <Header />
           <Switch>
-            <Route path='/' exact component={Main}></Route>
+            <Route path='/' exact>
+              <Redirect to='/home'></Redirect>
+            </Route>
+            <Route path='/home' exact component={Main}></Route>
             <Route path='/solution' exact component={Solution}></Route>
             <Route path='/settledin' exact component={SettledIn}></Route>
             <Route path='/contact' exact component={Contact}></Route>
           </Switch>
           <Footer />
-        </BrowserRouter>
+        </Router>
       </Provider>
 
     </div>
