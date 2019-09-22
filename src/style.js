@@ -46,5 +46,9 @@ export const GlobalStyle = createGlobalStyle`
     border-collapse: collapse;
     border-spacing: 0;
   }
+  a:link { color: #000; }
+  a:visited { color: #000; }
+  a:hover { color: #000; }
+  a:active { color: #000; }
 `;
 
